@@ -1,0 +1,16 @@
+# YOLOv7 Data Configuration
+
+train: ../train/images 
+val: ../valid/images    
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: am_text
+  1: am_table
+  2: am_figure
+  3: am_caption
+  4: am_chart
+  5: am_form
